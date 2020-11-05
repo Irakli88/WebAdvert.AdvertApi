@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>I.T.</Authors>
+    <Company>None</Company>
+    <Product>Web Advert Microservices</Product>
+    <PackageProjectUrl>https://github.com/Irakli88/WebAdvert.AdvertApi</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Irakli88/WebAdvert.AdvertApi</RepositoryUrl>
+    <PackageId>I.T._AdvertApi.Models</PackageId>
+    <Configurations>Debug;Release;Development</Configurations>
   </PropertyGroup>
 
 </Project>
