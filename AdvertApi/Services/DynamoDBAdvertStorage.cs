@@ -38,7 +38,8 @@ namespace AdvertApi.Services
 
         public async Task<bool> CheckHealthAsync()
         {
-            using (var client = new AmazonDynamoDBClient(RegionEndpoint.APSoutheast2))
+            //using (var client = new AmazonDynamoDBClient(RegionEndpoint.APSoutheast2))  //use if not set to credentials file
+            using (var client = new AmazonDynamoDBClient())
             {
                 using (var context = new DynamoDBContext(client))
                 {
